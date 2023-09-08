@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import {Button} from 'antd'
+import './stylesheets/form-elements.css'
+import './stylesheets/theme.css'
+import './stylesheets/custom-components.css'
+import './stylesheets/alignments.css'
+import './stylesheets/text-elements.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='bg-primary text-white h-screen flex justify-center items-center'>
+      <h1>Welcome with Prince ❣️ </h1>
+     
     </div>
+    <Button type="dashed" >click</Button>
+    </>
   );
 }
 
